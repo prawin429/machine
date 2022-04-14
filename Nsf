@@ -1,0 +1,17 @@
+import pandas as pd
+import numpy as np
+import json
+import requests
+import time
+dta=[]
+key = "cement"
+x = range(1, 200, 25)
+for n in range(len(x)):
+    url = 'http://api.nsf.gov/services/v1/awards.json?keyword='+str(key)+'&offset='+str(n)+'&dateStart=01/01/2010&dateEnd=12/31/2021'
+    for i in requests.get(url).json()['response']['award']:
+        dta.append(i)
+        df_=pd.DataFrame(dta)
+        writer = pd.ExcelWriter('NSF_'+str(key)+'.xlsx', engine='xlsxwriter')
+        df_.to_excel(writer, sheet_name='University_Data')
+        writer.save()
+        writer.close()
