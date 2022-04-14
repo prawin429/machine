@@ -1,0 +1,15 @@
+import pandas as pd
+import numpy as np
+import json
+import requests
+import time
+dta=[]
+key = "covid"
+url = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=cement&resultType=lite&cursorMark=*&pageSize=1000&format=json&fromSearchPost=false'
+for i in requests.get(url).json()['resultList']['result']:
+    dta.append(i)
+    df_=pd.DataFrame(dta)
+    writer = pd.ExcelWriter('euro_'+str(key)+'.xlsx', engine='xlsxwriter')
+    df_.to_excel(writer, sheet_name='University_Data')
+    writer.save()
+    writer.close()
