@@ -1,0 +1,23 @@
+1. UNCOMTRADE: I have written a Python code which Extracts Trade data and Major 5 Countries.
+Data can be extracted for single HS code, (Segment wise) 2 and 4 HS codes. This can be done in very short span of time (1- 5 Mins) but same work is done manually in more than 3 hours. 
+Generally, feasibility study for trade data for all countries consumes more time but by using this code work done in 3 hours.
+In order to get major 5 countries everyone is using VLOOKUP and Pivot Table which is little confusing and takes more time in case of many HS codes. 
+To extract major 5 countries data for one HS code manually, we will take 5 minutes where as I can extract major 5 countries data along with conversations (US$ Million, Th Metric Tons) for 4 HS codes in 5 minutes. 
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+2. Eurostat: I have written a Python code which Extracts Demand Value, Volume, Imports and Exports for all countries in short span of time. 
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+3. NSF (National Science Foundation): I have written a Python code which extracts University studies along with details like Title, Funding Amount, Project Start date and End date in short span of time.
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+4. Science Direct: I have written a Python code which extracts University studies along with details like Title, DOI for all countries in short span of time.
+If we want to find university studies manually through science direct, we have to open every link and search whether that university study belong to our county or not.
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+5. Len’s. Org: I have written a Python code which extracts University studies along with details like Title, Abstract and Funding Source for all countries in short span of time.
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+6. USDA: I have written a Python code which Extracts Production Volume, Imports and Exports for all countries in short span of time. 
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+7. Europe PubMed Central: I have written a Python code which extracts University studies along with details like Title, Abstract and Funding Source for all countries in short span of time.
+Used Libraries: Python NumPy, Pandas, JSON, Requests
+8. Googles schooler:
+9. Office for National Statistics, Destatis, UN Data: Currently working on it.
+
+
