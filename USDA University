@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+import json
+import requests
+import time
+url = 'https://api.nal.usda.gov/pubag/rest/search/?query=soybean+oil&title:soybean+oil&author:soybean+oil&abstract:soybean+oil&page=1&per_page=100&publication_year:2015&api_key=1lhbyDOxjdU0SYTRiwqGrKAt8Y1Z6r27kseZ8RHW'
+res = requests.get(url).json()
+df= pd.DataFrame(res['response']['docs'])
+writer = pd.ExcelWriter('usda_univer.xlsx', engine='xlsxwriter')
+df.to_excel(writer, sheet_name='University_Data')
+writer.save()
