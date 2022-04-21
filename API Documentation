@@ -1,11 +1,13 @@
-S.No	API NAME	Remarks	Project Usage 	Url / Documentation
-1	UN COMTRADE	Open Source	Extract Trade Data Year wise Imports & Exports for World/All countries. Extract segement wise Top 5/10 Countries Imports & Exports Single HS Code, sum of 2 HS Codes, sum of  4 HS Codes(for 4, 6 Digit Hs codes).	https://comtrade.un.org/data/dev/portal/#subscription
-2	Eurostat	Open Source	Extract Demand, Production, Import and Export data European DS, PRC Code wise.	https://ec.europa.eu/eurostat/about/policies/copyright
-3	NSF (National Science Foundation)	Open Source	Extract University analysis data with Funding Source.	https://www.nsf.gov/developer/
-4	Science Direct	Open Source for Students & institution  / Subscription for commercial  Use.	Extract University analysis data.	https://dev.elsevier.com/
-5	Len's .Org	Subscription for commercial  Use.	Extract Patents and University analysis data	https://www.lens.org/lens/user/subscriptions
-6	USDA	Open Source	Production, Import , Export Sales data and  University analysis data.	https://apps.fas.usda.gov/opendataweb/home
-7	Europe PubMed Central	Open Source	Extract University analysis data.	https://europepmc.org/
-8	Office for National Statistics	Open Source	Extract Demand, Production, Import and Export data.	https://developer.ons.gov.uk/
-9	Destatis	Open Source	Extract Demand, Production, Import and Export data.	https://www.destatis.de/EN/Service/OpenData/api-webservice.html
-10	Un Data	Open Source	Additional  Data	http://data.un.org/Host.aspx?Content=UNdataUse
+S.No	API NAME	Remarks	Project Usage 	Url / Documentation	
+1	UN COMTRADE	Open Source	Extract Trade Data Year wise Imports & Exports for World/All countries. Extract segement wise Top 5/10 Countries Imports & Exports Single HS Code, sum of 2 HS Codes, sum of  4 HS Codes(for 4, 6 Digit Hs codes).	https://comtrade.un.org/data/dev/portal/#subscription	
+2	Eurostat	Open Source	Extract Demand, Production, Import and Export data European DS, PRC Code wise.	https://ec.europa.eu/eurostat/about/policies/copyright	https://ec.europa.eu/eurostat/web/prodcom/data/database
+3	NSF (National Science Foundation)	Open Source	Extract University analysis data with Funding Source.	https://www.nsf.gov/developer/	
+4	Science Direct	Open Source for Students & institution  / Subscription for commercial  Use.	Extract University analysis data.	https://dev.elsevier.com/	
+5	Len's .Org	Subscription for commercial  Use.	Extract Patents and University analysis data	https://www.lens.org/lens/user/subscriptions	
+6	USDA	Open Source	Production, Import , Export Sales data.	https://apps.fas.usda.gov/opendataweb/home	
+7	Europe PubMed Central	Open Source	Extract University analysis data.	https://europepmc.org/	
+8	USDA Pubag	Open Source	University analysis data.	https://pubag.nal.usda.gov/	
+9	Office for National Statistics	Open Source	Extract Demand, Production, Import and Export data.	https://developer.ons.gov.uk/	
+10	Destatis	Open Source	Extract Demand, Production, Import and Export data.	https://www.destatis.de/EN/Service/OpenData/api-webservice.html	
+11	Un Data	Open Source	Additional  Data	http://data.un.org/Host.aspx?Content=UNdataUse	
+12					
